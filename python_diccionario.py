@@ -30,9 +30,7 @@ estudiante["edad"] = 25 # actualiza el valor de 'edad'
 
 estudiante["suspensos"] = 3 # inserta una nueva pareja clave - valor
 
-estudiante.update({'aprobados':'8'}): inserta una nueva pareja clave - valor o actua\
-
-liza su valor si ya existiera
+estudiante.update({'aprobados':'8'}): inserta una nueva pareja clave - valor o actualiza su valor si ya existiera.
 
 Algunos de los métodos más utilizados son los siguientes:
 
@@ -49,14 +47,13 @@ Acción
 
 Devuelve todas las claves del diccionario
 Devuelve todos los valores del diccionario
-Elimina la clave del diccionario y devuelve
-su valor asociado. Si no la encuentra y se
-indica un valor por defecto, devuelve el
+Elimina la clave del diccionario y devuelve su valor asociado. Si no la encuentra y se indica un valor por defecto, devuelve el
 valor por defecto indicado.
+
 Vacía el diccionario
-Vacía el diccionario
+
 Devuelve True si el diccionario contiene la clave o False en caso contrario.
-Devuelve True si el diccionario contiene el valor o False en caso contrario.
+
 
 Diccionarios
 
